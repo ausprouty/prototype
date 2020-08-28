@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "book": "principles",
+	"format": "series",
+	"folder": "myfriends",
+	"image": "issues.jpg",
+    "index": "principles",
+	"style": "ZZ/styles/myfriends.css",
+	"template": "myfriends/issue.html",
+    "title": "Life Issues"
+  },
+  {
+    "id": 2,
+    "book": "basics",
+	"folder": "myfriends",
+	"format": "series",
+	"image": "basics.jpg",
+	"index": "basics",
+	"style": "ZZ/styles/myfriends.css",
+	"template": "myfriends/basics.html",
+    "title": "Basic Conversations"
+  },
+  {
+    "id": 3,
+    "book": "community",
+	"folder": "myfriends",
+	"format": "page",
+	"image": "community.jpg",
+	"page": "community",
+    "style": "ZZ/styles/myfriends.css",
+	"template": "myfriends/community.html",
+    "title": "Live Community"
+  },
+  {
+    "id": 4,
+    "book": "firststeps",
+    "folder": "first_steps",
+	"format": "series",
+	"image": "firststeps.jpg",
+    "index": "first_steps",
+	"style": "ZZ/styles/firststeps.css",
+	"title": "First Steps"
+  },
+  {
+    "id": 5,
+    "book": "compass",
+	"folder": "compass",
+	"format": "series",
+	"image": "compass.jpg",
+    "index": "compass",
+    "style": "ZZ/styles/compass.css",
+	"template": "compass/compass.html",
+    "title": "Compass"
+    
+  },
+  {
+    "id": 6,
+    "book": "about",
+	"folder": "myfriends",
+	"format": "page",
+	"image": "about.jpg",
+    "page": "community",
+    "style": "ZZ/styles/myfriends.css",
+	"title": "About MyFriends",
+	"template": "myfriends/about.html"
+    
+   
+  }
+]

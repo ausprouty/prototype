@@ -1,0 +1,116 @@
+:root {
+    --color-black:black;
+    --color-red:#de1e25;
+    --color-orange:orange;
+    --color-blue:#1ca0a6;
+    --color-background:#efefef;
+    --color-version: rgb(110, 107, 241);
+}
+p {
+    text-align:left;
+}
+
+div.bible {
+    background-color: var(--color-background);
+    line-height: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+p.bible {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+a {
+    background: transparent;
+    color: var(--color-red);
+}
+a:active,
+a:hover {
+    outline: 0;
+}
+    
+a.bible-readmore{
+    background-color:var(--color-red);
+    border-color: var(--color-red);
+    border: 1;
+    color: #fff;
+    height: auto;
+    margin-bottom: 0;
+    padding: 6px 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+div.lesson {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+div.lesson-subtitle {
+    bottom: 0;
+    color:var(--color-black);
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 45px;
+    position: absolute;
+}
+div.lesson-subtitle-rtl {
+    bottom: 0;
+    color: var(--color-black);
+    font-size: 30px;
+    line-height: 30px;
+    margin-right: 65px;
+    position: absolute;
+}
+img.study,
+img.lesson-icon {
+    height: 30px;
+    margin-right: 20px;
+    vertical-align: middle;
+    width: 30px;
+}
+img.study.rtl{
+    text-align:right;
+}
+div.lesson.rtl {
+    text-align: right;
+}
+h1{
+    color: var(--color-red); 
+}
+
+p.reference {
+    color: var(--color-red);
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+sup,
+.versenum {
+    color: var(--color-blue);
+    font-size: 75%;
+    padding-right:2px;
+    padding-left: 3px;
+    line-height: 0;
+    position: relative;
+    top: -0.5em;
+    vertical-align: baseline;
+}
+img.book {
+    width: 25%;
+}
+div.book {
+    vertical-align: top;
+    width: 70%;
+    font-size: 24px;
+    float: right;
+}
+.book {
+    text-align: left;
+}
+ol.rtl{
+    list-style-type:arabic-indic;
+}

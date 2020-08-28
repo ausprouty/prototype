@@ -1,0 +1,521 @@
+:root {
+  --color-black: black;
+  --color-red: #d24f53;
+  --color-blue: #124c7c;
+  --color-background: #f2ede6;
+  --color-version: #164c7f;
+  --color-back: black;
+  --color-up: black;
+  --color-forward: black;
+}
+
+#offline-ready {
+  color: var(--color-up);
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  width: 95%;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.back {
+  color: var(--color-back);
+}
+.up {
+  color: var(--color-up);
+}
+.forward {
+  color: var(--color-forward);
+}
+p.indent {
+  margin-left: 20px;
+}
+.indent2 {
+  margin-left: 40px;
+}
+.indent3 {
+  margin-left: 60px;
+}
+div.note-area {
+  width: 100%;
+  background-color: white;
+}
+textarea {
+  background-color: #efefef;
+  width: 100%;
+}
+.year {
+  text-align: center;
+  color: var(--color-red);
+  font-weight: bold;
+}
+
+.badge {
+  display: inline-flex;
+  height: 26px;
+  width: auto;
+  padding: 0 7px;
+  margin: 0 5px;
+  background: transparent;
+  border-radius: 13px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.badge.-fill-gradient {
+  background: linear-gradient(to right, #16c0b0, #84cf6a);
+  color: #fff;
+}
+.cache-series {
+  background-color: var(--color-up);
+}
+.for-enrichment {
+  background-color: #e6ecf2;
+  padding: 10px;
+}
+.preview {
+  background-color: white;
+}
+.hidden {
+  visibility: hidden;
+}
+h1,
+h3,
+h4,
+h5,
+h6 {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--color-blue);
+  display: inline;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+h5 {
+  font-size: 12px;
+  font-weight: 700;
+}
+h6 {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+small {
+  font-size: 80%;
+}
+.error {
+  border: 1px solid var(--color-red);
+}
+.errorMessage {
+  color: var(--color-red);
+}
+.eyebrow {
+  font-size: 20px;
+}
+.-text-primary {
+  color: #39b982;
+}
+.-text-base {
+  color: #000;
+}
+.-text-error {
+  color: tomato;
+}
+.-text-gray {
+  color: rgba(0, 0, 0, 0.5);
+}
+.rtl.heb-verse {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+.italics {
+  font-style: italic;
+}
+a.black {
+  color: black;
+  text-decoration: underline;
+}
+button,
+label,
+input,
+optgroup,
+select {
+  display: inline-flex;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
+  outline: 2px solid #39b982;
+}
+button {
+  margin-bottom: 20px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  text-align: center;
+  padding: 0 40px;
+}
+.button.red {
+  background-color: var(--color-red);
+  height: 48px;
+}
+.button.grey {
+  background-color: grey;
+  height: 48px;
+}
+div.bible_container,
+div.bible {
+  background-color: var(--color-background);
+  padding-left: 10px;
+  line-height: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  text-align: left;
+  color: #333130;
+}
+div.bible_container {
+  padding-top: 20px;
+}
+
+img {
+  border-style: none;
+  width: 100%;
+}
+img.sortable {
+  height: 30px;
+  width: 30px;
+}
+img.image100 {
+  width: 50%;
+  max-width: 200px;
+}
+img.nav-icon {
+  width: 100%;
+  max-width: 650px;
+}
+img.app-img-header {
+  width: 100%;
+}
+label {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid 1px rgba(0, 0, 0, 0.4);
+}
+
+[type='checkbox'],
+[type='radio'] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+  height: auto;
+}
+[type='search'] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+[type='text'],
+[type='number'],
+[type='search'],
+[type='password'] {
+  height: 52px;
+  width: 100%;
+  padding: 0 10px;
+  font-size: 20px;
+}
+[type='text']:focus,
+  type='number']:focus,
+  [type='search']:focus,
+  [type='password']:focus {
+  border-color: #39b982;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+[hidden] {
+  display: none;
+}
+select {
+  width: 100%;
+  height: 52px;
+  padding: 0 24px 0 10px;
+  vertical-align: middle;
+  background: #fff
+    url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E")
+    no-repeat right 12px center;
+  background-size: 8px 10px;
+  border: solid 1px rgba(0, 0, 0, 0.4);
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+select:focus {
+  border-color: #39b982;
+  outline: 0;
+}
+select:focus::ms-value {
+  color: #000;
+  background: #fff;
+}
+select::ms-expand {
+  opacity: 0;
+}
+li {
+  text-align: left;
+}
+ol.rtl {
+  list-style-type: arabic-indic;
+}
+label,
+.bold {
+  font-weight: bold;
+}
+p.version {
+  text-align: center;
+  color: var(--color-version);
+  font-size: 10pt;
+}
+p.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.notpublished {
+  background-color: yellow;
+}
+p.bible {
+  padding-bottom: 10px;
+  padding-top: 0px;
+}
+.gospel_text {
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 10px;
+  padding-top: 30px;
+}
+.gospel-prayer {
+  background-image: url('/images/quote_open.gif');
+  background-position: 10px top;
+  background-repeat: no-repeat;
+  color: #085276;
+  font-style: italic;
+  font-weight: bold;
+  padding-left: 35px;
+}
+.lesson-subheader {
+  text-align: left;
+  font-weight: 600;
+}
+.triangle {
+  text-align: left;
+}
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+a {
+  background: transparent;
+  color: var(--color-blue);
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+a.bible-readmore {
+  background-color: var(--color-blue);
+  border-color: var(--color-blue);
+  border: 1px;
+  color: #fff;
+  height: auto;
+  margin-bottom: 0;
+  padding: 6px 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+sup,
+.versenum {
+  color: var(--color-blue);
+  font-size: 75%;
+  line-height: 0;
+  padding-right: 2px;
+  padding-left: 3px;
+  position: relative;
+  vertical-align: baseline;
+}
+sup,
+.versenum {
+  top: -0.5em;
+}
+div.lesson {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  position: relative;
+  text-align: left;
+}
+div.myfriends-lesson-rtl,
+div.lesson.rtl {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  position: relative;
+  text-align: right;
+}
+div.lesson-subtitle,
+div.lesson-section {
+  bottom: 0;
+  color: var(--color-black);
+  font-size: 30px;
+  line-height: 30px;
+  margin-left: 45px;
+  position: absolute;
+}
+div.myfriends-lesson-subtitle-rtl,
+div.lesson-subtitle.rtl {
+  bottom: 0;
+  color: var(--color-black);
+  font-size: 30px;
+  line-height: 30px;
+  margin-right: 65px;
+  position: absolute;
+}
+
+img.lesson-icon {
+  height: 30px;
+  margin-right: 20px;
+  vertical-align: middle;
+  width: 30px;
+}
+img.myfriend-lesson-rtl-icon,
+img.lesson-icon.rtl {
+  height: 30px;
+  margin-right: 20px;
+  vertical-align: middle;
+  width: 30px;
+}
+.myfriends-poetry-top-rtl,
+.myfriends-bible-rtl {
+  text-align: right;
+}
+img.myfriend-lesson-rtl-icon,
+img.lesson-rtl-icon {
+  height: 30px;
+  margin-left: 20px;
+  vertical-align: middle;
+  width: 30px;
+}
+li.ltr {
+  color: var(--color-blue);
+}
+p {
+  text-align: left;
+}
+p.reference {
+  padding-top: 20px;
+  color: var(--color-red);
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+div.footer {
+  text-align: center;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  padding-bottom: 75px;
+  margin-top: 96px;
+}
+a.footer {
+  color: #999999;
+  text-decoration: none;
+}
+p.footer {
+  color: #777777;
+  letter-spacing: 0.5em;
+  text-align: center;
+}
+div.float left {
+  float: left;
+}
+@media only screen and (max-width: 500px) {
+  p.footer {
+    letter-spacing: 0.1em;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  div.lesson-subtitle,
+  div.lesson-section {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  p,
+  p.myfriends-gospel-text {
+    font-size: 12pt;
+  }
+}

@@ -1,0 +1,313 @@
+/*colours{
+yellow: #ffc80f
+red:  var(--color-back)
+orange: #f38832
+green #1ca0a6
+}
+*/
+:root {
+--color-back:  #f0555a;
+--color-up:#f38832;
+--color-forward: #1ca0a6;
+--color-background: #efefef;
+}
+:root {
+  --color-back:  black;
+  --color-up:black;
+  --color-forward: black;
+  --color-background: #efefef;
+  }
+p{
+    text-align: left;
+}
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.bible{
+color:#000;
+}
+.bible-container{
+padding-top: 15px;
+padding-bottom: 30px;
+background-color: #efefef;
+padding-left: 10px;
+padding-right: 10px;
+}
+.conclusion,
+.key,
+.notes,
+.pray,
+.read,
+.bold,
+.statement
+{
+font-weight: bold;
+text-align: left;
+}
+.conclusion{
+padding-top:15px;
+font-size: 2em;
+
+}
+.color-back{
+color: var(--color-back);
+}
+.color-forward{
+color:var(--color-forward);
+}
+.color-up{
+color:var(--color-up);;
+}
+.yellow,
+.color-yellow{
+color:  var(--color-up);
+}
+.rtl{
+  direction:rtl;
+  text-align: right;
+}
+.text-conclusion{
+font-style: italic;
+text-align: left
+}
+.top{
+padding-top: 20px;
+
+}
+.versenum{
+vertical-align: super;
+font-size:55%;
+color: var(--color-foward);
+padding-left:0px;
+padding-right:3px;
+font-variant-position:super;
+}
+a.readmore{
+color: var(--color-up);
+}
+div.fsteps{
+font-size :18px;
+color: var(--color-forward);
+font-weight:bold;
+line-height: 30px;
+margin-left:55px;
+bottom:10px;
+
+}
+div.lesson {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+    text-align:left;
+}
+div.lesson.rtl {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  position: relative;
+  text-align:right;
+  }
+div.lesson-lookback{
+font-size: 24px;
+line-height: 24px;
+margin-left:30px;
+position:absolute;
+color: var(--color-back);
+display:inline;
+text-align:left;
+
+}
+div.lesson-lookup{
+font-size: 24px;
+line-height: 24px;
+margin-left:30px;
+position:absolute;
+color: var(--color-up);
+display:inline;
+text-align:left;
+
+}
+div.lesson-lookforward{
+font-size: 24px;
+line-height: 24px;
+margin-left:30px;
+position:absolute;
+color: var(--color-forward);
+display:inline;
+text-align:left;
+
+}
+div.lesson-subtitle {
+  bottom: 0;
+  color:var(--color-black);
+  font-size: 30px;
+  line-height: 30px;
+  margin-left: 45px;
+  position: absolute;
+}
+div.lesson-subtitle.rtl {
+  bottom: 0;
+  color: var(--color-black);
+  font-size: 30px;
+  line-height: 30px;
+  margin-right: 65px;
+  position: absolute;
+}
+
+
+div.note-forward{
+padding-top:15px;
+padding-bottom:75px;
+padding-left:15px;
+padding-right:15px;
+}
+div.readmore{
+margin-top:40px;
+}
+npm run bu
+
+h1{
+color:black;
+}
+
+h2{
+color: #376e8a;
+font-size: 1.5em;
+margin-left:0px;
+}
+h2.lookback{
+color:  var(--color-back);
+}
+h2.lookup{
+color:  var(--color-up);
+}
+h2.lookforward{
+color:  var(--color-forward);
+}
+img.lesson-icon,
+img.study,
+img.journey-read{
+height:30px;
+width:30px;
+}
+img.lesson-point,
+img.point{
+padding-right: 10px;
+height:15px;
+width:15px;
+}
+
+img.large_point,
+img.lesson-point-large{
+padding-right: 10px;
+height:30px;
+width:30px;
+}
+img.read{
+height:30px;
+width:30px;
+padding-right: 10px;
+}
+img.rtl{
+padding-right: 0px;
+padding-left: 10px;
+}
+img.next{
+width:"100%";
+max-width:300px;
+}
+li{
+padding-left:16px;
+}
+li.back:before,
+li.up:before,
+li.forward:before{
+content:'•';
+padding-right: 8px;
+color:black;
+font-size:24px;
+}
+li.rtl.back:before,
+li.rtl.up:before,
+li.rtl.forward:before{
+content:'•';
+padding-left: 8px;
+font-size:24px;
+}
+li.back:before{
+color: var(--color-back);
+}
+li.up:before{
+color: var(--color-up);
+}
+li.forward:before{
+color: var(--color-forward);
+}
+li.rtl{
+  text-align: right;
+}
+ol.ol-back{
+color: var(--color-back);
+padding-left:30px;
+}
+ol.ol-up{
+color: var(--color-up);
+padding-left:30px;
+}
+ol.ol-forward{
+color: var(--color-forward);
+padding-left:30px;
+}
+p.read{
+text-align:left;
+margin-bottom: 24px;
+font-size:1.2em;
+line-height:1.4;
+}
+p.rtl{
+text-align:right;
+}
+ul.ol-back,
+ul.ol-up,
+ul.ol-forward{
+    list-style: none;
+}
+ul.nodot {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+sup, 
+versenum,
+sup.versenum{
+    color: var(--color-forward);
+    font-size:55%;
+    padding-right:2px;
+     padding-left: 3px;
+}
+
+    
+img.book {
+    width: 25%;
+  }
+  div.book {
+    vertical-align: top;
+    width: 70%;
+    font-size: 24px;
+    float: right;
+  }
+  .book {
+    text-align: left;
+  }
+  div.bible {
+    background-color: var(--color-background);
+    line-height: 25px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}

@@ -1,0 +1,74 @@
+{		
+	"series" :"first_steps",
+	"language" : "eng",
+	"description":"First Steps is a resource to help you understand and grow in what it means to be a follower of Christ. These sessions will help us to discover together and apply a few of the basic principles of what it means to follow Christ and share him with others.",
+	"chapters": [
+		{"id": 1, 
+			"title": "Intro", 
+			"description": "Connecting people to Jesus and each other",
+			"count":"1",
+			"filename":"step1" 
+		},
+		{"id": 2, 
+			"title": "Assurance", 
+			"description":"How can a person who has received Jesus know with certainty that we will spend eternity with God?" ,
+			"count":"2",
+			"filename":"step2" 
+		},
+		{"id": 3,
+			"title": "Experiencing God's Love and Forgiveness",
+			"description": "How can we constantly experience a close relationship with God?",
+			"count":"3",
+			"filename":"step3" 
+		},
+			{"id": 4, 
+			"title": "Sharing About Jesus With Others", 
+			"description": "If having a relationship with Jesus is such good news, how can we tell others about this good news?",
+			"count":"4",
+			"filename":"step4" 
+		},
+		{"id": 5, 
+			"title": "Growing Spiritually",
+			"description": "How can we continue to grow in relationship with Jesus?",
+			"count":"5",
+			"filename":"step5" 
+		},
+		{"id": 6, 
+			"title": "Who Is The Holy Spirit?", 
+			"description": "Who helps us to understand and experience the things we’ve been talking about over the last few weeks?",
+			"count":"6",
+			"filename":"step6" 
+		},
+		{"id": 7, 
+			"title": "Living in God's Power", 
+			"description": "How do we live out the Christian life when it can seem so difficult at times?" ,
+			"count":"7",
+			"filename":"step7" 
+		},
+		{"id": 8, 
+			"title": "Satisfied?", 
+			"description": "" ,
+			"count":"",
+			"filename":"satisfied" 
+		},
+		{"id": 9, 
+			"title": "What’s Next", 
+			"description": "" ,
+			"count":"",
+			"filename":"next" 
+		},
+		{"id": 998, 
+			"title": "About MyFriends", 
+			"description": "" ,
+			"count":"",
+			"filename":"intro" 
+		},
+		{"id": 999, 
+			"title": "Tips", 
+			"description": "" ,
+			"count":"",
+			"filename":"tips" 
+		}
+
+	]
+}

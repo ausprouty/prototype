@@ -1,0 +1,85 @@
+{		
+	"series" :"basics",
+	"language" : "eng",
+	"description":"",
+	"chapters": [
+	{"id": 1,
+		"title": "The Garden",
+		"desciption": "",
+		"count": 1,
+		"filename": "basics101"
+	},
+	{"id": 2,
+		"title": "The Choice",
+		"desciption": "",
+		"count": 2,
+		"filename": "basics102"
+	},
+	{"id": 3,
+		"title": "A Flood",
+		"desciption": "",
+		"count": 3,
+		"filename": "basics103"
+	},
+	{"id": 4,
+		"title": "Ten Things",
+		"desciption": "",
+		"count": 4,
+		"filename": "basics104"
+	},
+	{"id": 5,
+		"title": "A New Agreement",
+		"desciption": "",
+		"count": 5,
+		"filename": "basics105"
+	},
+	{"id": 6,
+		"title": "The Servant",
+		"desciption": "",
+		"count": 6,
+		"filename": "basics106"
+	},
+	{"id": 7,
+		"title": "A Video",
+		"desciption": "",
+		"count": 7,
+		"filename": "basics107"
+	},
+	{"id": 8,
+		"title": "Talking with God",
+		"desciption": "",
+		"count": 8,
+		"filename": "basics108"
+	},
+	{"id": 9,
+		"title": "Wise or Foolish?",
+		"desciption": "",
+		"count": 9,
+		"filename": "basics109"
+	},
+	{"id": 10,
+		"title": "New Life",
+		"desciption": "",
+		"count": 10,
+		"filename": "basics110"
+	},
+	{"id": 11,
+		"title": "Knowing God",
+		"desciption": "",
+		"count": "",
+		"filename": "gospel"
+	},
+	{"id": 12,
+		"title": "Celebrate",
+		"desciption": "",
+		"count": "",
+		"filename": "celebrate"
+	},
+	{"id": 13,
+		"title": "Live Community",
+		"desciption": "",
+		"count": "",
+		"filename": "community"
+	}
+  ]
+}
