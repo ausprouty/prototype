@@ -1,0 +1,1 @@
+http-server -p 1111 -a localhost -c 0

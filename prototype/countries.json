@@ -1,0 +1,70 @@
+[
+  {
+    "code": "AU",
+    "english": "Australia",
+    "home":"/content/AU/eng/index.html"
+  },
+  {
+    "code": "BR",
+    "english": "Brazil",
+    "home":"/content/BR/por/"
+  },
+  {
+    "code": "CH",
+    "english": "Switzerland",
+    "home":"/content/CH/deu/"
+  },
+  {
+    "code": "CN",
+    "english": "China",
+    "home":"/content/CN/cmn/"
+  },
+  {
+    "code": "DE",
+    "english": "Germany",
+    "home":"/content/DE/deu/"
+  },
+  {
+    "code": "EG",
+    "english": "Egypt",
+    "home":"/content/EG/arb/"
+  },
+  {
+    "code": "ES",
+    "english": "Spain",
+    "home":"content/ES/spa/"
+  },
+  {
+    "code": "ET",
+    "english": "Ethiopia",
+    "home":"/content/ET/amh/"
+  },
+  {
+    "code": "FR",
+    "english": "France",
+    "home":"/content/FR/fra/"
+  },
+  {
+    "code": "IN",
+    "english": "India",
+    "home":"/content/IN/hin/"
+  },
+  {
+    "code": "LK",
+    "english": "Sri Lanka",
+    "home":"/content/LK/tam/"
+  },
+  {
+    "code": "PK",
+    "english": "Pakistan",
+    "home":"/content/PK/urd/"
+  },
+
+  {
+    "code": "US",
+    "english": "United States",
+    "home":"/content/US/eng/"
+  }
+  
+
+]
