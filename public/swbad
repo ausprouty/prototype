@@ -1,0 +1,67 @@
+importScripts("js/analytics-helper.js");
+
+importScripts("js/sw-offline-google-analytics.js");
+goog.offlineGoogleAnalytics.initialize();
+var CACHE_DYNAMIC_NAME = "content-3";
+
+importScripts(
+  "https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js"
+);
+
+// from https://developers.google.com/web/tools/workbox/
+
+workbox.precaching.precacheAndRoute([
+  "/",
+  "/index.html",
+  "/content/index.html",
+  "/not-found.html",
+  "/js/fetch.js",
+  "/js/promise.js",
+  "/js/app.js",
+  "/js/analytics-helper.js"
+]);
+
+workbox.routing.registerRoute(
+  new RegExp(".*.js"),
+  new workbox.strategies.NetworkFirst({
+    cacheName: "js"
+  })
+);
+
+workbox.routing.registerRoute(
+  new RegExp(".*.css"),
+  new workbox.strategies.StaleWhileRevalidate({
+    cacheName: "css"
+  })
+);
+
+workbox.routing.registerRoute(
+  /.*\.(?:png|jpg|jpeg|svg|gif)/g,
+  new workbox.strategies.CacheFirst({
+    cacheName: "images"
+  })
+);
+
+workbox.routing.registerRoute(
+  /.*\.(?:html|htm|shtml)/g,
+  new workbox.strategies.NetworkFirst({
+    cacheName: CACHE_DYNAMIC_NAME
+  })
+);
+
+// to remove old cache fromhttps://www.udemy.com/course/progressive-web-app-pwa-the-complete-guide/learn/lecture/7824376#overview
+//self.addEventListener('activate', function(event) {
+//  event.waitUntil(
+//    caches.keys()
+//      .then(function(keyList) {
+//       return Promise.all(keyList.map(function(key) {
+//         if (key != CACHE_DYNAMIC_NAME && key != 'images' && key != 'css' && key != 'js'){
+//          console.log ('Removing ' + key)
+//         return caches.delete(key);
+//        }
+//
+//       }));
+//     })
+// );
+// return self.clients.claim();
+//});
