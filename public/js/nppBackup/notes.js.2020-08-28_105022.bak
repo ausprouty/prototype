@@ -1,8 +1,0 @@
-function show_notes() {
-  var text = "this will show notes ";
-  return text;
-}
-function store_notesl() {
-  var text = "this will show notes ";
-  return text;
-}
